@@ -1,0 +1,29 @@
+{
+  "name": "usamaayub120/energylabel",
+  "description": "Magento 2 Energy label extension",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "usama ayub",
+      "email": "usamaayub00@gmail.com",
+      "homepage": "https://tricosmic.com",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magento\\Framework\\": ""
+    }
+  }
+}
